@@ -11,7 +11,10 @@ https://releases.ubuntu.com/focal/?_ga=2.41973733.1395950567.1698105350-11154101
 ```
 https://youtu.be/x5MhydijWmc?si=ZNSjuhY4XvVO9v6d
 ```
-
+## 필요한 코드
+```
+sudo apt install build-essential dkms linux-headers-$(uname -r)
+```
 ## Curl, docker, docker-compose 설치(apt)
 ### apt 서버 패키지 업데이트 목록 작성
 ```

@@ -63,3 +63,16 @@ docker logs peer0.org2.example.com
 ```
 ./network.sh deployCC -ccn basic -ccp ../asset-transfer-basic/chaincode-go/ -ccl go -ccv 1.0.0
 ```
+## NodeJS 어플리케이션 수행
+### javascript 어플리케이션으로 이동
+```
+cd ~/fabric-samples/asset-transfer-basic/application-javascript
+```
+### node-modules 설치
+```
+npm install
+```
+### app.js 실행
+```
+node app.js
+```
